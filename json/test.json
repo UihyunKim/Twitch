@@ -1,0 +1,90 @@
+/* stream null */
+typeof === 'function' && ({
+    "stream": null,
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/streams/freecodecamp",
+        "channel": "https://api.twitch.tv/kraken/channels/freecodecamp"
+    }
+});
+
+/* stream */
+/* https://wind-bow.gomix.me/twitch-api/streams/gsl?callback=? */
+/**/
+typeof === 'function' && ({
+    "stream": {
+        "_id": 24206724560,
+        "game": "StarCraft II",
+        "viewers": 11150,
+        "video_height": 1080,
+        "average_fps": 30.7946109431,
+        "delay": 0,
+        "created_at": "2017-01-11T09:21:17Z",
+        "is_playlist": false,
+        "preview": {
+            "small": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gsl-80x45.jpg",
+            "medium": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gsl-320x180.jpg",
+            "large": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gsl-640x360.jpg",
+            "template": "https://static-cdn.jtvnw.net/previews-ttv/live_user_gsl-{width}x{height}.jpg"
+        },
+        "channel": {
+            "mature": false,
+            "partner": true,
+            "status": "2017 HOT6 GSL Season 1",
+            "broadcaster_language": "en",
+            "display_name": "GSL",
+            "game": "StarCraft II",
+            "language": "ko",
+            "_id": 52229024,
+            "name": "gsl",
+            "created_at": "2013-11-27T00:45:44Z",
+            "updated_at": "2017-01-11T11:03:27Z",
+            "delay": null,
+            "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/gsl-profile_image-0670464b721ea8c5-300x300.png",
+            "banner": null,
+            "video_banner": null,
+            "background": null,
+            "profile_banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/gsl-profile_banner-96eaa7b8241c1c6d-480.jpeg",
+            "profile_banner_background_color": null,
+            "url": "https://www.twitch.tv/gsl",
+            "views": 42046550,
+            "followers": 101971,
+            "_links": {
+                "self": "https://api.twitch.tv/kraken/channels/gsl",
+                "follows": "https://api.twitch.tv/kraken/channels/gsl/follows",
+                "commercial": "https://api.twitch.tv/kraken/channels/gsl/commercial",
+                "stream_key": "https://api.twitch.tv/kraken/channels/gsl/stream_key",
+                "chat": "https://api.twitch.tv/kraken/chat/gsl",
+                "features": "https://api.twitch.tv/kraken/channels/gsl/features",
+                "subscriptions": "https://api.twitch.tv/kraken/channels/gsl/subscriptions",
+                "editors": "https://api.twitch.tv/kraken/channels/gsl/editors",
+                "teams": "https://api.twitch.tv/kraken/channels/gsl/teams",
+                "videos": "https://api.twitch.tv/kraken/channels/gsl/videos"
+            }
+        },
+        "_links": {
+            "self": "https://api.twitch.tv/kraken/streams/gsl"
+        }
+    },
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/streams/gsl",
+        "channel": "https://api.twitch.tv/kraken/channels/gsl"
+    }
+});
+
+
+/* user */
+/* https://wind-bow.gomix.me/twitch-api/users/gsl?callback=? */
+/**/
+typeof === 'function' && ({
+    "display_name": "GSL",
+    "_id": 52229024,
+    "name": "gsl",
+    "type": "user",
+    "bio": "Welcome to the GSL! The premier league of Starcraft 2 which tests the skills of all comers to see if they are worthy of a championship title! The GSL is a stage where the highest levels of production and gaming skills come together to provide a global standard for eSports broadcast.",
+    "created_at": "2013-11-27T00:45:44Z",
+    "updated_at": "2017-01-11T14:04:33Z",
+    "logo": "https://static-cdn.jtvnw.net/jtv_user_pictures/gsl-profile_image-0670464b721ea8c5-300x300.png",
+    "_links": {
+        "self": "https://api.twitch.tv/kraken/users/gsl"
+    }
+});

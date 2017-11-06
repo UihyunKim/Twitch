@@ -1,0 +1,131 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 80px;
+    background-color: #232730;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Bungee Shade', cursive;
+    color: #fff;
+    font-size: 2.5em;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-bottom: auto;
+    background-color: #323943;
+    color: #fff;
+    padding: 0 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+}
+
+li div {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* logo */
+
+li div:nth-child(1) {
+    flex: 1 1 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* In case of NOT loading logo - i-smile */
+
+li i.fa {
+    font-size: 2em;
+}
+
+
+/* In case of loading logo*/
+
+li img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* users */
+
+li div:nth-child(2) {
+    flex: 1 1 40%;
+}
+
+
+/* on/offline status */
+
+li div:nth-child(3) {
+    flex: 1 1 40%;
+}
+
+nav {
+    font-family: 'Audiowide', cursive;
+    display: flex;
+    align-items: center;
+    background-color: #232730;
+    height: 50px;
+}
+
+nav div {
+    box-sizing: border-box;
+    flex: 0 0 33.3%;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* functions */
+
+main ul li.offline_hidden {
+    display: none;
+}
+
+main ul li.online_hidden {
+    display: none;
+}
+
+.button {
+    border-bottom: 5px solid #909090
+}
+
+.selected {
+    border-bottom: 5px solid #00ca74;
+}
+
+
+}
